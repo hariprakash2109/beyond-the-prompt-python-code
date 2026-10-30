@@ -1,0 +1,14 @@
+# Versions in comments are those installed in the authoring environment (Python 3.12.3)
+# when the tests in this repository were run. Ranges allow compatible updates.
+openai>=3.0,<4.0          # tested with 3.35.1 (live calls NOT executed; see Chapter 3)
+pydantic>=2.8,<3.0        # tested with 2.14.1
+numpy>=1.26,<3.0          # tested with 2.4.4
+python-dotenv>=1.0,<2.0   # tested with 1.2.2
+fastapi>=0.115,<1.0       # tested with 0.146.0
+uvicorn>=0.30,<1.0        # tested with 0.54.0
+httpx>=0.27,<1.0          # required by FastAPI's TestClient; tested with 0.28.1
+langgraph>=1.0,<2.0       # tested with 1.2.16 (Chapter 10)
+pytest>=8.0,<10.0         # tested with 9.1.1
+
+# Optional, NOT installed or tested by the author:
+#   sentence-transformers   local embedding models (Chapter 6, optional section)

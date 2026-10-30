@@ -1,0 +1,25 @@
+{
+  "note": "Hypothetical evaluation set for the FICTIONAL sample documents. role = who is asking.",
+  "answerable": [
+    {"question": "How long must an internship last to earn credit?", "expected_doc": "internship_policy", "role": "student"},
+    {"question": "How many credits can I earn for one internship?", "expected_doc": "internship_policy", "role": "student"},
+    {"question": "How do I book a resume review appointment?", "expected_doc": "resume_review_service", "role": "student"},
+    {"question": "When are walk-in resume reviews available?", "expected_doc": "resume_review_service", "role": "student"},
+    {"question": "How many days can I borrow a laptop?", "expected_doc": "laptop_loan_program", "role": "student"},
+    {"question": "What is the late fee for returning a laptop late?", "expected_doc": "laptop_loan_program", "role": "student"},
+    {"question": "What is the STAR method for interviews?", "expected_doc": "interview_prep_guide", "role": "student"},
+    {"question": "When is the Spring Career Fair?", "expected_doc": "campus_events", "role": "student"},
+    {"question": "What placement fee do partner employers pay?", "expected_doc": "employer_partner_contracts", "role": "staff"},
+    {"question": "What is the maximum caseload for a career counselor?", "expected_doc": "counselor_caseload_guidelines", "role": "staff"}
+  ],
+  "unanswerable": [
+    {"question": "What is the capital of Mongolia?", "role": "student"},
+    {"question": "Who won the football championship last year?", "role": "student"},
+    {"question": "What is the recipe for chocolate cake?", "role": "student"}
+  ],
+  "must_not_leak": [
+    {"question": "What placement fee do partner employers pay?", "role": "student", "forbidden_doc": "employer_partner_contracts"},
+    {"question": "What is the maximum caseload for a career counselor?", "role": "student", "forbidden_doc": "counselor_caseload_guidelines"},
+    {"question": "How many days can I borrow a laptop?", "role": "public", "forbidden_doc": "laptop_loan_program"}
+  ]
+}

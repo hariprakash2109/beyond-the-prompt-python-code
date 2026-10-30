@@ -1,0 +1,14 @@
+HYPOTHETICAL SAMPLE - not a real job posting.
+
+Junior Data Analyst - Northwind Learning (fictional company)
+
+We are looking for an entry-level analyst to join our small reporting team.
+You will build weekly dashboards and clean survey data.
+
+Requirements:
+- Strong SQL skills
+- Experience with Python (pandas)
+- 5+ years of professional experience
+- Good written communication
+
+Compensation is competitive and discussed at interview.
